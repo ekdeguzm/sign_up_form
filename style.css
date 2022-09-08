@@ -1,3 +1,14 @@
 body {
   background-color: blueviolet;
 }
+@media all and (min-width:980px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media all and (max-width:979px) {
+  .register-form {
+    margin-left: 30px;
+  }
+}
