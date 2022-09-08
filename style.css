@@ -12,3 +12,9 @@ body {
     margin-left: 30px;
   }
 }
+
+@media
+
+.container {
+  background-color: whitesmoke;
+}
