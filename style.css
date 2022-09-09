@@ -13,7 +13,16 @@ body {
   }
 }
 
-@media
+@media all and (max-width:767px) {
+  .imageCont {
+      display: flex;
+      justify-content: center;
+  }
+  .register-form {
+      margin-left: 0px;
+      position: static;
+  }
+}
 
 .container {
   background-color: whitesmoke;
