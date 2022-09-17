@@ -25,6 +25,7 @@ body {
 }
 
 .container {
+  display:flex;
   background-color: whitesmoke;
   margin-top: 3rem;
   padding: 10px;
@@ -41,5 +42,5 @@ body {
 }
 
 .text-box-2 {
-  git 
+  
 }
