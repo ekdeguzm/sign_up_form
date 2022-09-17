@@ -1,6 +1,10 @@
 body {
   background-color: blueviolet;
   font-family:'Courier New', Courier, monospace;
+    transform: scale(0.9);
+    transform-origin: center;
+}
+
 }
 @media all and (min-width:900px) {
   .container {
