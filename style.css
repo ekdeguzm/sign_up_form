@@ -32,6 +32,10 @@ body {
   box-shadow: 0px 0px 5px 0px black;
 }
 
+.gif {
+  border-radius: 5px;
+}
+
 .text-box {
   margin-bottom: 3rem;
 }
