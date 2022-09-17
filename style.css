@@ -1,24 +1,25 @@
 body {
   background-color: blueviolet;
+  font-family:'Courier New', Courier, monospace;
 }
-@media all and (min-width:980px) {
+@media all and (min-width:900px) {
   .container {
-    max-width: 980px;
+    max-width: 900px;
   }
 }
 
 @media all and (max-width:980px) {
-  .register-form {
+  .form_selection {
     margin-left: 30px;
   }
 }
 
 @media all and (max-width:767px) {
-  .imageCont {
+  .gif {
       display: flex;
       justify-content: center;
   }
-  .register-form {
+  .form_selection {
       margin-left: 0px;
       position: static;
   }
@@ -26,6 +27,8 @@ body {
 
 .container {
   display:flex;
+  justify-items: center;
+  justify-content: center;
   margin: auto;
   background-color: whitesmoke;
   padding: 10px;
@@ -40,7 +43,6 @@ body {
 
 .form_selection {
   position: relative;
-  width: max-content;
 }
 
 .text-box {
@@ -49,11 +51,10 @@ body {
   justify-content: center;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-/* .row {
-  position: absolute;
-  z-index: 1;
-} */
+.row {
+  width: auto;
+}
