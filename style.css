@@ -49,9 +49,10 @@ body {
 }
 
 .text-box {
-  display: flex;
+  /* display: flex;
   justify-items: center;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 30px;
