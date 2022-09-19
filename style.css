@@ -5,7 +5,6 @@ body {
     transform-origin: center;
 }
 
-}
 @media all and (min-width:900px) {
   .container {
     max-width: 900px;
