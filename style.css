@@ -61,3 +61,8 @@ body {
 .row {
   width: auto;
 }
+
+.btn-group {
+  background-color: azure;
+  border-left: 2px solid black;
+}
