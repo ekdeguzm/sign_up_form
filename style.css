@@ -79,11 +79,15 @@ body {
   width: 100% ;
   cursor: pointer;
   background: #bfbfbf;
-  color: #fff;
+  color: black;
   font-family: 'Prompt', sans-serif;
   transition-duration: 0.4s;
 }
 
 .active {
   background-color: rgb(245 245 245);
+}
+
+#submit:hover {
+  background-color: whitesmoke;
 }
