@@ -91,3 +91,7 @@ body {
 #submit:hover {
   background-color: whitesmoke;
 }
+
+.login {
+  text-align: center;
+}
