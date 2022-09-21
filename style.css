@@ -70,3 +70,16 @@ body {
   border-top: none;
   border-bottom: none;
 }
+
+#submit {
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 5px;
+  padding: 3%;
+  width: 100% ;
+  cursor: pointer;
+  background: #bfbfbf;
+  color: #fff;
+  font-family: 'Prompt', sans-serif;
+  transition-duration: 0.4s;
+}
