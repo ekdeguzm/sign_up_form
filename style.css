@@ -90,6 +90,16 @@ h1 {
   transition-duration: 0.4s;
 }
 
+.bBtn:hover {
+  background-color: #9df991; 
+  transition-duration: 0.4s;
+}
+
+.cBtn:hover {
+  background-color: #7ea4f0; 
+  transition-duration: 0.4s;
+}
+
 #submit {
   border: 1px solid black;
   border-top: none;
