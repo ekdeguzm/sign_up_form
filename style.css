@@ -83,3 +83,7 @@ body {
   font-family: 'Prompt', sans-serif;
   transition-duration: 0.4s;
 }
+
+.active {
+  background-color: rgba(255, 175, 238, 0.158);
+}
