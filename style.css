@@ -5,6 +5,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   transform: scale(0.9);
   transform-origin: center;
+  margin: 0px;
 }
 
 @media all and (min-width: 900px) {
