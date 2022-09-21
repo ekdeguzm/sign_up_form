@@ -82,6 +82,10 @@ h1 {
   border-bottom: none;
 }
 
+input[type="radio"] {
+  visibility: hidden;
+}
+
 .aBtn:hover {
   background-color: #f99696;
   transition-duration: 0.4s;
