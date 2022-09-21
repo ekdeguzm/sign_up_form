@@ -29,6 +29,14 @@ body {
   }
 }
 
+h1 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  
+}
+
 .container {
   display: flex;
   justify-items: center;
