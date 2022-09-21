@@ -41,12 +41,20 @@
             <input type="email" name="email" id="email" required/>
 
             <p><label for="#">PASSWORD</label></p>
-            <p class="passoword-font">Minimum of 12 and maximum of 20 characters</p>
+            <p class="passoword-font">12 character minimum</p>
             <p class="passoword-font">At least one number and one special character</p>
-            <input type="password" name="password" id="password" required minlength="12" maxlength="20"/>
+            <input 
+              type="password" 
+              name="password" 
+              id="password" 
+              pattern = "^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"/>
 
             <p><label for="#">CONFIRM PASSWORD</label></p>
-            <input type="password" name="confirm-password" id="confirm-password" required minlength="12" maxlength="20"/>
+            <input 
+              type="password" 
+              name="confirm-password" 
+              id="confirm-password" 
+              pattern = "^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"/>
 
             <div class="text-box-2">
               <p>CHOOSE YOUR PATH.</p>
