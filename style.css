@@ -104,6 +104,10 @@ h1 {
   width: auto;
 }
 
+.email, .password, .char-name, .confirm-password {
+  font-weight: bold;
+}
+
 .text-box-2 {
   margin-top: 20px;
   margin-bottom: 0px;

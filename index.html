@@ -35,13 +35,13 @@
       <div class="row">
         <form action="#" method="post" id="signup-form">
           <fieldset>
-            <p><label for="character-name">CHARACTER NAME</label></p>
+            <p><label for="character-name" class="char-name">CHARACTER NAME</label></p>
             <input type="text" name="character-name" id="character-name" required/>
             
-            <p><label for="#">EMAIL</label></p>
+            <p><label for="#" class="email">EMAIL</label></p>
             <input type="email" name="email" id="email" required/>
 
-            <p><label for="#">PASSWORD</label></p>
+            <p><label for="#" class="password">PASSWORD</label></p>
             <p class="passoword-font">12 character minimum</p>
             <p class="passoword-font">At least one number and one special character</p>
             <input 
@@ -50,7 +50,7 @@
               id="password" 
               pattern = "^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"/>
 
-            <p><label for="#">CONFIRM PASSWORD</label></p>
+            <p><label for="#" class="confirm-password">CONFIRM PASSWORD</label></p>
             <input 
               type="password" 
               name="confirm-password" 
