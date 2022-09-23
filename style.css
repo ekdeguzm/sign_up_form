@@ -113,7 +113,9 @@ h1 {
   color: #fff;
   font-weight: bold;
   line-height: 16px;
-  border-radius: 2px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   border: 1px solid black;
   border-bottom: none;
 }
@@ -162,7 +164,7 @@ input:focus:invalid {
 #submit {
   border: 1px solid black;
   border-top: none;
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 3%;
   width: 100%;
   cursor: pointer;
@@ -170,6 +172,8 @@ input:focus:invalid {
   color: rgb(245 245 245);
   font-family: 'Prompt', sans-serif;
   transition-duration: 0.4s;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .active {
