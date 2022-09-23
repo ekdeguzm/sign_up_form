@@ -148,6 +148,7 @@ input[type="radio"] {
 .cBtn:hover {
   background-color: #7ea4f0;
   transition-duration: 0.4s;
+  padding-right: 38px;
 }
 
 input:focus:valid {
