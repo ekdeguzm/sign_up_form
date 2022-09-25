@@ -1,4 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/common-pixel'); @media all and (min-width: 900px) {
+@import url('http://fonts.cdnfonts.com/css/common-pixel'); 
+
+@media all and (min-width: 900px) {
   .container {
       max-width: 900px;
   }
