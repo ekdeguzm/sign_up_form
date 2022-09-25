@@ -181,6 +181,7 @@ input:focus:invalid {
 }
 
 .active {
+  cursor: pointer;
   background-color: rgb(245 245 245);
 }
 
