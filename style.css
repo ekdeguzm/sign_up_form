@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/common-pixel'); 
 
+@font-face {
+  font-family: "Common Pixel";
+  src: url(https://fonts.cdnfonts.com/css/common-pixel);
+}
 
 @media all and (min-width: 900px) {
   .container {
