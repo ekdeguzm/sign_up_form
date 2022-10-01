@@ -1,3 +1,5 @@
+
+//select password and store it in variable
 var password = document.getElementById("password");
 var confirm_password = document.getElementById("confirm-password");
 
