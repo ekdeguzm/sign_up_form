@@ -18,12 +18,9 @@ function check() {
 
   if (passConfirm !== pass) {
       alert('Password fields must match.');
+  }
 }
 
-passField.addEventListener('click', () => {
-  check()
-});
+passField.addEventListener('click', check);
 
-passConfirmField.addEventListener('click', () => {
-  check()
-});
+passConfirmField.addEventListener('click', check);
