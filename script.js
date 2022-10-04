@@ -1,26 +1,22 @@
-
-// //select password and store it in variable
-// var password = document.getElementById("password");
-// var confirm_password = document.getElementById("confirm-password");
-
-
-// //compare password to see if same 
-// if (password == confirm_password) {
-//   document.getElementById("password").style.border = "1.5px solid green";
-// }
-
+// create variable of password fields
 const passField = document.querySelector('#password');
 const passConfirmField = document.querySelector('#confirm-password');
 
+// compare passwords 
 function check() {
   let pass = document.querySelector('#password').value;
   let passConfirm = document.querySelector('#confirm-password').value;
 
   if (passConfirm !== pass) {
       alert('Password fields must match.');
+      document.querySelector("#password").style.border = "2px solid red";
+      document.querySelector("#confirm-password").style.border = "2px solid red";
+  }
+  else {
+    document.querySelector("#password").style.border = "2px solid green";
+    document.querySelector("#confirm-password").style.border = "2px solid green";
   }
 }
 
 passField.addEventListener('click', check);
-
 passConfirmField.addEventListener('click', check);
