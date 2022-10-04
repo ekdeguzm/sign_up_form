@@ -9,13 +9,25 @@
 //   document.getElementById("password").style.border = "1.5px solid green";
 // }
 
-const create = document.querySelector('#password');
+const passField = document.querySelector('#password');
+const passConfirmField = document.querySelector('#confirm-password');
 
-create.addEventListener('click', () => {
+check
+
+passField.addEventListener('click', () => {
     let pass = document.querySelector('#password').value;
     let passConfirm = document.querySelector('#confirm-password').value;
 
     if (passConfirm !== pass) {
         alert('Password fields must match.');
     }
+});
+
+passConfirmField.addEventListener('click', () => {
+  let pass = document.querySelector('#password').value;
+  let passConfirm = document.querySelector('#confirm-password').value;
+
+  if (passConfirm !== pass) {
+      alert('Password fields must match.');
+  }
 });
