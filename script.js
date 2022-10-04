@@ -12,22 +12,18 @@
 const passField = document.querySelector('#password');
 const passConfirmField = document.querySelector('#confirm-password');
 
-check
-
-passField.addEventListener('click', () => {
-    let pass = document.querySelector('#password').value;
-    let passConfirm = document.querySelector('#confirm-password').value;
-
-    if (passConfirm !== pass) {
-        alert('Password fields must match.');
-    }
-});
-
-passConfirmField.addEventListener('click', () => {
+function check() {
   let pass = document.querySelector('#password').value;
   let passConfirm = document.querySelector('#confirm-password').value;
 
   if (passConfirm !== pass) {
       alert('Password fields must match.');
-  }
+}
+
+passField.addEventListener('click', () => {
+  check()
+});
+
+passConfirmField.addEventListener('click', () => {
+  check()
 });
