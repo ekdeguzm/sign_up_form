@@ -15,11 +15,13 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 ### Tools
 
 * Visual Studio Code
+* Chrome Developer Tools
 * Mac terminal
 * Git and GitHub
 
 ## Outcome
 
+* Checks for password with a minimum of eight characters that includes at leased one capitalized letter, lower case letter, special symbol, and one number.
 * Collect user data specifying proper input types.
 * Use javascript to check that the password fields match each other.
 * Displays error messages for form validation within the elements of the page.
