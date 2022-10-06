@@ -41,6 +41,3 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 👤 **Kawayan De Guzman**
 * GitHub: [ekdeguzm](https://github.com/ekdeguzm)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
