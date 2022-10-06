@@ -1,5 +1,7 @@
 # Sign-up Form
 
+![cyber-world](https://user-images.githubusercontent.com/35510088/194231052-3087d055-ae65-48d9-b1e9-4abd27997aa1.gif)
+
 From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
 🔗 **Live preview:** [here](https://ekdeguzm.github.io/sign_up_form/)
