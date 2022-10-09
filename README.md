@@ -23,7 +23,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 ## Outcome
 
-* Checks for password with a minimum of eight characters that includes at leased one special symbol, and one number.
+* Checks for password with a minimum of eight characters that includes at leased one special character, and one number.
 * Collect user data specifying proper input types.
 * Use javascript to check that the password fields match each other.
 * Displays error messages for form validation within the elements of the page.
