@@ -12,7 +12,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 * HTML
 * CSS
-* Javascipt
+* JavaScipt
 
 ### Tools
 
