@@ -24,8 +24,8 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 ## Outcome
 
 * Checks for password with a minimum of eight characters that includes at leased one special character, and one number.
-* Collect user data specifying proper input types.
-* Use javascript to check that the password fields match each other.
+* Collect user data specifying input types.
+* Use javascript to check if password fields match.
 * Displays error messages for form validation within the elements of the page.
 * Used **Git** and **GitHub** for project management.
 * Maintain **clean code**.
