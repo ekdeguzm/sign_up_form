@@ -28,7 +28,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 * Use javascript to check if password fields match.
 * Displays error messages for form validation within the elements of the page.
 * Used **Git** and **GitHub** for project management.
-* **Cross tested** on Firefox and Chromium based browsers.
+* **Cross tested** on Firefox and Chrome based browsers.
 
 ## Summary
 
