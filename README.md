@@ -26,7 +26,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 * Check for password with a minimum of eight characters that includes at leased one special character and one number.
 * Collect user data with specific input types.
 * Use javascript to check if password fields match.
-* Displays error message and respective colors for form validation within the elements of the page.
+* Display error message and respective colors for form validation within the elements of the page.
 * Use **Git** and **GitHub** for project management.
 * **Cross tested** on Firefox and Chrome based browsers.
 
